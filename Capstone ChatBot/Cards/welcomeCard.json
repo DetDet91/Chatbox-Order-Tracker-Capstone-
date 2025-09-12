@@ -1,0 +1,33 @@
+{
+  "type": "AdaptiveCard",
+  "body": [
+    {
+      "type": "Image",
+      "horizontalAlignment": "Center",
+      "altText": "Hospital image",
+      "url": "https://www.mcleodhealth.org/wp-content/uploads/cache/2016/07/McLeodFlorenceTwilightWide/2627533818.jpg"
+    },
+    {
+      "type": "TextBlock",
+      "size": "ExtraLarge",
+      "weight": "Bolder",
+      "text": "Chatbot for Mcleod's Print Center",
+      "horizontalAlignment": "Center",
+      "color": "Dark"
+    },
+    {
+      "text": "This chatbot is here so you can check your order status",
+      "type": "TextBlock",
+      "horizontalAlignment": "Center"
+    }
+  ],
+  "actions": [
+    {
+      "type": "Action.OpenUrl",
+      "url": "https://www.mcleodhealth.org/",
+      "title": "Visit Mcleod Health"
+    }
+  ],
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "version": "1.2"
+}
